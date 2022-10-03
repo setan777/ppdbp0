@@ -86,8 +86,7 @@ class Home extends Component {
               <p className="text-description">
                 Website ini digunakan sebagai fasilitas untuk memudahkan calon
                 peserta didik baru guna mendaftarkan diri sebagai peserta didik
-                baru. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laboriosam, suscipit?
+                baru.
               </p>
               <Button title="Selengkapnya" />
             </div>
@@ -116,7 +115,7 @@ class Home extends Component {
               />
               <Card
                 title="Seleksi Peserta"
-                description="SSekolah melakukan analisa data dari calon peserta yang mendaftar dan melakuka rekap data sesuai dengan proses seleksi yang dilakukan oleh sistem. Jika peserta telah menyelesaikan unggah dan melengkapi data maka hanya tinggal menunggu saja."
+                description="Sekolah melakukan analisa data dari calon peserta yang mendaftar dan melakuka rekap data sesuai dengan proses seleksi yang dilakukan oleh sistem. Jika peserta telah menyelesaikan unggah dan melengkapi data maka hanya tinggal menunggu saja."
                 image={ilustratorSeleksi}
                 alt="Seleksi Peserta"
               />
@@ -139,7 +138,7 @@ class Home extends Component {
             <div className="left-side">
               <h4 className="text-attention">
                 Untuk melihat informasi PPDB lebih lengkap, Yuk kunjungi website
-                sekolah kita !
+                sekolah kita https://www.smkbinaprestasi.sch.id !
               </h4>
             </div>
             <div className="right-side">
@@ -158,19 +157,18 @@ class Home extends Component {
             </figure>
             <article>
               <p>
-                SMAN 1 Prabumulih melaksanakan seleksi PPDB TA 2020-2021 melalui
-                4 jalur, yaitu, Jalur Penelusuran Minat dan Prestasi Akademik
-                (PMPA), Jalur Mutasi Orang Tua, Jalur Zonasi, dan Jalur Tes
-                Potensi Akademik. Proses pendaftaran semua jalur PPDB 2020
-                dilakukan secara mandiri danonline melalui web SMAN 1
-                Prabumulih.
+                Sekolah Menengah Kejuruan (SMK) Bina Prestasi
+                merupakan lembaga pendidikan yang berada dibawah
+                naungan Yayasan Bina Prestasi Islami ’97,
+                yang memiliki Empat Program Keahlian yang terakreditasi “A”,
+                yaitu Teknik Pemesinan, Teknik Kendaraan Ringan, Teknik Komputer Jaringan,
+                dan Otomatisasi Tata Kelola dan Perkantoran.
               </p>
               <p>
                 Pengisian form PPDB Online mohon diperhatikan data yang
                 dibutuhkan yang nantinya akan dipakai dalam proses PPDB. Setelah
                 proses pengisian form PPDB secara online berhasil dilakukan,
-                calon siswa akan mendapat bukti daftar dengan nomor pendaftaran
-                dan harus disimpan yang akan digunakan untuk proses selanjutnya.
+                calon siswa akan mendapat intruksi selanjutnya dari pihak Sekolah.
               </p>
             </article>
           </section>
@@ -189,16 +187,16 @@ class Home extends Component {
             <div className="contact-us">
               <p className="judul-contact">Contact Us</p>
               <p className="text-description">
-                Info lebih lanjut bisa di tanyakan langsung contact di bawah
+                Info lebih lanjut bisa ditanyakan langsung kontak di bawah
               </p>
 
-              <p className="nomer-text">Wa : 08920202020 (Budi)</p>
-              <p className="nomer-text">Telp : 08920202020 (Raihan)</p>
-              <p className="nomer-text">Email : smk2kra@gmail.com </p>
+              <p className="nomer-text">Wa : 6281310849726 </p>
+              <p className="nomer-text">Telp :  (021) 82605636 </p>
+              <p className="nomer-text">Email : smk.binaprestasi@gmail.com </p>
             </div>
           </section>
           <footer>
-            <p>&copy; 2020 Smk N 2 Karanganyar</p>
+            <p>&copy; 2022 SMK BINA PRESTASI </p>
           </footer>
         </div>
       </Fragment>
