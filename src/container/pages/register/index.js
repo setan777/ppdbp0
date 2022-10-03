@@ -207,7 +207,7 @@ function Register() {
                   label="Name"
                   name="nama"
                   type="text"
-                  placeholder="Raihan"
+                  placeholder="Ade Bintang"
                 />
                 <CustomTextInput
                   label="Nisn"
@@ -221,14 +221,14 @@ function Register() {
                   className="input-select"
                 >
                   <option value="">Jenis Kelamin</option>
-                  <option value="laki-laki">laki-laki</option>
-                  <option value="wanita">wanita</option>
+                  <option value="Laki-Laki">Laki-Laki</option>
+                  <option value="Perempuan">Perempuan</option>
                 </CustomSelect>
                 <CustomTextInput
                   label="Tempat Lahir"
                   name="tempatLahir"
                   type="text"
-                  placeholder="sukoharjo"
+                  placeholder="Bekasi"
                 />
                 <CustomTextInput
                   label="Tanggal lahir"
@@ -239,7 +239,7 @@ function Register() {
                   label="Umur"
                   name="umur"
                   type="number"
-                  placeholder="18"
+                  placeholder="16"
                 />
                 <CustomSelect
                   label="Agama"
@@ -252,7 +252,6 @@ function Register() {
                   <option value="hindu">Hindu</option>
                   <option value="budha">Budha</option>
                   <option value="katolik">Katolik</option>
-                  <option value="lainya">Lainya</option>
                 </CustomSelect>
                 <CustomSelect
                   label="Golongan Darah"
@@ -262,25 +261,26 @@ function Register() {
                   <option value="">Golongan Darah</option>
                   <option value="A">A</option>
                   <option value="B">B</option>
+                </CustomSelect>
                   <option value="AB">AB</option>
                   <option value="O">O</option>
-                </CustomSelect>
+                  <option value="-">-</option>
                 <CustomTextArea
                   label="Alamat Rumah"
                   name="alamat"
-                  placeholder="Sukoharjo rt 05 rw 12"
+                  placeholder="Gang Dukuh No.10 RT01/10 Kec.Tambun Selatan Kab.Bekasi"
                 />
                 <CustomTextInput
                   label="Nomer Telepon"
                   name="tlpn"
                   type="number"
-                  placeholder="0871217872277"
+                  placeholder="081234567890"
                 />
                 <CustomTextInput
                   label="Email"
                   name="email"
                   type="email"
-                  placeholder="raihan@gmail.com"
+                  placeholder="adebintang@gmail.com"
                 />
                 <hr className="garis-bawah" />
                 <h3 className="judul-h3">Identitas Orang Tua atau Wali</h3>
@@ -288,7 +288,7 @@ function Register() {
                   label="Nama Ayah"
                   name="namaAyah"
                   type="text"
-                  placeholder="Raihan"
+                  placeholder="Ade Bintang"
                 />
                 <CustomTextInput
                   label="Tahun Lahir Ayah"
@@ -302,8 +302,7 @@ function Register() {
                   className="input-select"
                 >
                   <option value="">Pendidikan Ayah</option>
-                  <option value="Tidak Sekolah">Tidak Sekolah</option>
-                  <option value="Tidak Tamat SD">Tidak Tamat SD</option>
+                  <option value="-">-</option>
                   <option value="SD">SD</option>
                   <option value="SMP">SMP</option>
                   <option value="SMA">SMA</option>
@@ -339,16 +338,18 @@ function Register() {
                   <option value="Rp. 1.000.000 - Rp. 2.000.000">
                     Rp. 1.000.000 - Rp. 2.000.000
                   </option>
-                  <option value="Lebih dari Rp. 2.000.000">
-                    Lebih dari Rp. 2.000.000
+                  <option value="Lebih dari Rp. 2.000.000-5.000.000">
+                    Rp. 2.000.000 - Rp. 5.000.000
                   </option>
-                  <option value="0">0 jika keadaan ayah sudah meninggal</option>
+                  <option value="Lebih dari Rp. 5.000.000">
+                    Lebih dari Rp. 5.000.000
+                  </option>
                 </CustomSelect>
                 <CustomTextInput
                   label="Nama Ibu"
                   name="namaIbu"
                   type="text"
-                  placeholder="Raihan"
+                  placeholder="Ade Bintang"
                 />
                 <CustomTextInput
                   label="Tahun Lahir Ibu"
@@ -362,8 +363,7 @@ function Register() {
                   className="input-select"
                 >
                   <option value="">Pendidikan Ibu</option>
-                  <option value="Tidak Sekolah">Tidak Sekolah</option>
-                  <option value="Tidak Tamat SD">Tidak Tamat SD</option>
+                  <option value="-">-</option>
                   <option value="SD">SD</option>
                   <option value="SMP">SMP</option>
                   <option value="SMA">SMA</option>
@@ -399,10 +399,12 @@ function Register() {
                   <option value="Rp. 1.000.000 - Rp. 2.000.000">
                     Rp. 1.000.000 - Rp. 2.000.000
                   </option>
-                  <option value="Lebih dari Rp. 2.000.000">
-                    Lebih dari Rp. 2.000.000
+                  <option value="Lebih dari Rp. 2.000.000-5.000.000">
+                    Rp. 2.000.000 - Rp. 5.000.000
                   </option>
-                  <option value="0">0 jika keadaan Ibu sudah meninggal</option>
+                  <option value="Lebih dari Rp. 5.000.000">
+                    Lebih dari Rp. 5.000.000
+                  </option>
                 </CustomSelect>
                 <h3 className="judul-h3">Jurusan/peminatan</h3>
                 <CustomSelect
@@ -411,9 +413,10 @@ function Register() {
                   className="input-select"
                 >
                   <option value="">Pilih Jurusan</option>
-                  <option value="RPL">Teknik Komputer (RPL)</option>
+                  <option value="RPL">Teknik Komputer Dan Jaringan (TKJ)</option>
                   <option value="TKR">Teknik Kendaraan Ringan (TKR)</option>
                   <option value="TP">Teknik Permesinan (TP)</option>
+                  <option value="OTKP">Otomatisai Tata Kelola Perkantoran (OTKP)</option>                  
                 </CustomSelect>
                 <button type="submit" className="btn-daftar">
                   {props.isSubmitting ? "Loading..." : "Kirim"}
@@ -426,10 +429,10 @@ function Register() {
           <div className="bungkus-gambar">
             <img src={authIlustration} alt="Register Ilustrator" />
           </div>
-          <h4 className="text-pendaftaran">PPDB SMK N 2 KRA</h4>
+          <h4 className="text-pendaftaran">PPDB SMK BINA PRESTASI</h4>
           <p className="text-desc">
-            Terimakasih atas kepercayaan anda terhadap SMK Bhina Karya
-            Karanganyar sebagai pilihan untuk meraih masa depan.
+            Terimakasih atas kepercayaan anda terhadap SMK BINA PRESTASI
+            sebagai pilihan untuk meraih masa depan.
           </p>
         </section>
       </section>
