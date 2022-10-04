@@ -81,7 +81,7 @@ class Home extends Component {
         <div className="container">
           <section id="header">
             <div className="title-main-header">
-              <h3 className="text-school">SMK Negeri 2 Karanganyar</h3>
+              <h3 className="text-school">SMK BINA PRESTASI</h3>
               <div className="divider"></div>
               <p className="text-description">
                 Website ini digunakan sebagai fasilitas untuk memudahkan calon
